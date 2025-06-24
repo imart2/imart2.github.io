@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fahmi3232.github.io/imart/sitemap.xml
