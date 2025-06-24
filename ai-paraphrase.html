@@ -264,6 +264,30 @@
             margin-bottom: 10px;
             font-size: 15px;
         }
+
+        .banner-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 20px 0;
+        }
+    
+        .banner-inner {
+            width: 70%;
+            max-width: 728px;
+        }
+    
+        .banner-inner iframe {
+            width: 100% !important;
+            height: auto !important;
+            display: block;
+        }
+    
+        @media (max-width: 768px) {
+            .banner-inner {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 
@@ -289,17 +313,22 @@
     </nav>
 
     <h1>🧠 AI Paraphrase Article</h1>
-    <script type="text/javascript">
-        atOptions = {
-            'key': 'aa0cd088e88708c0a5f17853855b9adc',
-            'format': 'iframe',
-            'height': 90,
-            'width': 728,
-            'params': {}
-        };
-    </script>
-    <script type="text/javascript"
-        src="//www.highperformanceformat.com/aa0cd088e88708c0a5f17853855b9adc/invoke.js"></script>
+    <div class="banner-container">
+        <div class="banner-inner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key': 'aa0cd088e88708c0a5f17853855b9adc',
+                    'format': 'iframe',
+                    'height': 90,
+                    'width': 728,
+                    'params': {}
+                };
+            </script>
+            <script type="text/javascript"
+                src="//www.highperformanceformat.com/aa0cd088e88708c0a5f17853855b9adc/invoke.js"></script>
+        </div>
+    </div>
+    
     <div style="margin-bottom: 30px;" class="container">
 
         <!-- <label for="inputText">Masukkan artikel yang ingin diparafrase:</label> -->
