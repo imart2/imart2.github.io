@@ -263,9 +263,17 @@
       font-size: 15px;
     }
 
-    .ad-banner{
-      width: 90%;
-      margin: 0 auto;
+    .banner-wrapper {
+      width: 70%;
+      margin: 0 auto; /* center horizontally */
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .banner-wrapper iframe {
+      width: 100% !important; /* agar ikut lebar wrapper */
+      height: auto !important;
     }
   </style>
 </head>
@@ -293,7 +301,7 @@
   </nav>
 
   <h1>🖼️ Image Generator</h1>
-  <div class="ad-banner">
+  <div class="banner-wrapper">
      <script type="text/javascript">
       atOptions = {
         'key': 'aa0cd088e88708c0a5f17853855b9adc',
