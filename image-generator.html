@@ -262,6 +262,11 @@
       margin-bottom: 10px;
       font-size: 15px;
     }
+
+    .ad-banner{
+      width: 90%;
+      margin: 0 auto;
+    }
   </style>
 </head>
 
@@ -288,19 +293,20 @@
   </nav>
 
   <h1>🖼️ Image Generator</h1>
-
-  <script type="text/javascript">
-    atOptions = {
-      'key': 'aa0cd088e88708c0a5f17853855b9adc',
-      'format': 'iframe',
-      'height': 90,
-      'width': 728,
-      'params': {}
-    };
-  </script>
-  <script type="text/javascript"
-    src="//www.highperformanceformat.com/aa0cd088e88708c0a5f17853855b9adc/invoke.js"></script>
-
+  <div class="ad-banner">
+     <script type="text/javascript">
+      atOptions = {
+        'key': 'aa0cd088e88708c0a5f17853855b9adc',
+        'format': 'iframe',
+        'height': 90,
+        'width': 728,
+        'params': {}
+      };
+    </script>
+    <script type="text/javascript"
+      src="//www.highperformanceformat.com/aa0cd088e88708c0a5f17853855b9adc/invoke.js"></script>
+  </div>
+  
   <div class="container">
     <input type="text" id="prompt" placeholder="Describe your image in English..." required />
     <select id="size">
