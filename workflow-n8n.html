@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoFlow n8n - Otomatisasi Posting</title>
+    <style>
+        :root {
+            --primary: #0d6efd;
+            --dark: #121212;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #0b5ed7);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-btn {
+            background: white;
+            color: var(--primary);
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .cta-btn:hover {
+            background: #d30c0c;
+            color: white;
+        }
+
+        .section {
+            padding: 3rem 1rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease;
+            background: white;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .testimonial,
+        .faq {
+            background: var(--light);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: var(--gray);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: var(--dark);
+            color: #ccc;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .cta-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Banner -->
+    <header>
+        <h1>AutoFlow n8n</h1>
+        <p>Otomatisasi posting ke WordPress & Telegram dengan satu alur kerja.</p>
+        <!-- Setelah diubah -->
+        <a class="cta-btn"
+            href="https://wa.me/6281234567890?text=Mau%20workflow%20n8n%20nya%20dong%2C%20gimana%20caranya%3F"
+            target="_blank" rel="noopener noreferrer">
+            Chat via WhatsApp
+        </a>
+
+    </header>
+
+    <!-- Section: Fitur -->
+    <section class="section" id="features">
+        <h2 style="text-align:center;">Fitur Unggulan</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Integrasi WordPress</h3>
+                <p>Posting artikel secara otomatis ke blog WordPress tanpa perlu login manual.</p>
+            </div>
+            <div class="card">
+                <h3>Push ke Telegram</h3>
+                <p>Bagikan posting terbaru langsung ke channel atau grup Telegram Anda.</p>
+            </div>
+            <div class="card">
+                <h3>Jadwal Otomatis</h3>
+                <p>Atur kapan sistem berjalan secara terjadwal, pagi atau malam.</p>
+            </div>
+            <div class="card">
+                <h3>Tanpa Koding</h3>
+                <p>Cukup gunakan n8n dan template workflow kami, tanpa perlu menulis kode.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="section testimonial">
+        <h2 style="text-align:center;">Apa Kata Pengguna?</h2>
+        <p>"Saya hemat 5 jam seminggu berkat AutoFlow n8n. Konten langsung tayang di blog dan
+            Telegram!"<br><br><strong>- Andi, Blogger Teknologi</strong></p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq">
+        <h2 style="text-align:center;">Pertanyaan Umum</h2>
+        <p><strong>Apa itu AutoFlow n8n?</strong><br>Sistem otomatisasi berbasis n8n yang memposting konten Anda ke
+            WordPress dan Telegram.</p>
+        <p><strong>Apakah saya perlu hosting sendiri?</strong><br>Ya, Anda bisa gunakan n8n cloud atau VPS pribadi Anda.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 AutoFlow n8n. Dibuat oleh Fahmi Oktafian.
+    </footer>
+
+    <!-- Scroll JS -->
+    <script>
+        function scrollToFeatures() {
+            document.getElementById("features").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+</body>
+
+</html>
